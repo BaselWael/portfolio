@@ -1,23 +1,69 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-<script>
-  (function () {
-    try {
-      var saved = localStorage.getItem("theme");
-      var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-      var dark = saved ? saved === "dark" : prefersDark;
-      document.documentElement.classList.toggle("dark", dark);
-      document.documentElement.style.colorScheme = dark ? "dark" : "light";
-    } catch (e) {}
-  })();
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basel Wael (baselwael) — Full-Stack Developer</title>
+  <meta name="description"
+    content="Basel Wael (baselwael) — Full-Stack Developer specialized in Laravel, React/Next, MySQL, Redis. Portfolio, selected work, and contact." />
+  <link rel="canonical" href="https://baselwael.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="baselwael" />
+  <meta property="og:title" content="Basel Wael (baselwael) — Full-Stack Developer" />
+  <meta property="og:description"
+    content="Laravel-focused backend + clean motion on React/Next. View work and contact." />
+  <meta property="og:url" content="https://baselwael.com/" />
+  <meta property="og:image" content="https://baselwael.com/og-cover.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Basel Wael (baselwael) — Full-Stack Developer" />
+  <meta name="twitter:description" content="Laravel backend, React/Next frontend. Selected work & contact." />
+  <meta name="twitter:image" content="https://baselwael.com/og-cover.jpg" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var dark = saved ? saved === "dark" : prefersDark;
+        document.documentElement.classList.toggle("dark", dark);
+        document.documentElement.style.colorScheme = dark ? "dark" : "light";
+      } catch (e) { }
+    })();
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Basel Wael",
+  "alternateName": "baselwael",
+  "jobTitle": "Full-Stack Developer",
+  "url": "https://baselwael.com/",
+  "image": "https://baselwael.com/avatar.jpg",
+  "email": "mailto:Bslwael@gmail.com",
+  "sameAs": [
+    "https://github.com/BaselWael",
+    "https://www.linkedin.com/in/basel-wael-039b60166/"
+  ]
+}
 </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"baselwael",
+  "alternateName":"Basel Wael",
+  "url":"https://baselwael.com/"
+}
+</script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
