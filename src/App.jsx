@@ -7,7 +7,12 @@ import {
   Code2, LayoutDashboard, ShoppingCart, Quote, ChevronLeft, ChevronRight, Smartphone
 } from "lucide-react";
 
-
+import siasiImg from "./assets/siasi.png";
+import tehamaImg from "./assets/tehama.png";
+import kidflixImg from "./assets/kidflix.png";
+import beesbusImg from "./assets/beesbus.png";
+import erpImg from "./assets/erp.png";
+import mosarhaImg from "./assets/mosarha.png";
 /* ================ Utils ================ */
 function cn(...a) { return a.filter(Boolean).join(" "); }
 
@@ -189,7 +194,7 @@ const projects = [
     tech: ["Laravel", "MySQL", "REST API", "JWT"],
     live: "https://play.google.com/store/apps/details?id=com.app.siasi",
     repo: null,
-    img: "https://images.unsplash.com/photo-1520975922371-b0e0a3ed9f75?q=80&w=1400&auto=format&fit=crop",
+    img: siasiImg,
   },
   {
     id: 2,
@@ -201,7 +206,7 @@ const projects = [
     tech: ["Laravel", "MySQL", "Notifications", "Admin Panel"],
     live: "https://play.google.com/store/apps/details?id=com.ncodeslab.TehamaNews",
     repo: null,
-    img: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1400&auto=format&fit=crop",
+    img: tehamaImg,
   },
   {
     id: 3,
@@ -213,19 +218,19 @@ const projects = [
     tech: ["Laravel", "MySQL", "Admin Panel", "Parental Control"],
     live: "#",
     repo: null,
-    img: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop",
+    img: kidflixImg,
   },
   {
     id: 4,
-    title: "FormsHub — منصة أسئلة (بديلة Google Forms)",
+    title: "Mosarha — منصة أسئلة ",
     descAr:
       "مدير مشروع + Full-Stack: نماذج قابلة للتخصيص (اختيارات/نص/مصفوفات)، روابط عامة/خاصة، لوحة نتائج، تصدير CSV/Excel، Webhooks.",
     descEn:
       "PM + Full-Stack: customizable forms (MCQ/text/matrix), public/private links, analytics dashboard, CSV/Excel export, webhooks.",
     tech: ["React", "Laravel", "MySQL", "File Export"],
-    live: "#",
+    live: "https://www.mosarha.com",
     repo: null,
-    img: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1400&auto=format&fit=crop",
+    img: mosarhaImg,
   },
   {
     id: 5,
@@ -235,9 +240,9 @@ const projects = [
     descEn:
       "Project Manager: profiles, bids/proposals, wallet & payments, messaging, ratings, basic disputes.",
     tech: ["Next.js", "Node.js", "Payments", "Notifications"],
-    live: "#",
+    live: "https:://www.beesbus.net",
     repo: null,
-    img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop",
+    img: beesbusImg,
   },
   {
     id: 6,
@@ -247,9 +252,9 @@ const projects = [
     descEn:
       "Project Manager: analytics, inventory/HR/payroll/invoicing, RBAC, dashboards/reports, payment/email integrations.",
     tech: ["Laravel", "MySQL", "RBAC", "Reports"],
-    live: "#",
+    live: "https://www.solosoft.site",
     repo: null,
-    img: "https://images.unsplash.com/photo-1551281044-8a6b5995f16a?q=80&w=1400&auto=format&fit=crop",
+    img: erpImg,
   },
 ];
 // تايل مهارة بشكل مستطيل + أنيميشن خفيفة
