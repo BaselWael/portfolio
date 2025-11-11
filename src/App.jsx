@@ -240,7 +240,7 @@ const projects = [
     descEn:
       "Project Manager: profiles, bids/proposals, wallet & payments, messaging, ratings, basic disputes.",
     tech: ["Next.js", "Node.js", "Payments", "Notifications"],
-    live: "https:://www.beesbus.net",
+    live: "https://www.beesbus.net",
     repo: null,
     img: beesbusImg,
   },
