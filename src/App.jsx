@@ -722,7 +722,7 @@ export default function App() {
                   <Button asChild href="#contact" title="Contact">
                     <span className="inline-flex items-center gap-2"><Mail className="h-4 w-4" />{t.hero.cta1}</span>
                   </Button>
-                  <Button variant="outline" asChild href={profile.cvUrl} download="Basel_Wael_CV.pdf" title="Download CV">
+                  <Button variant="outline" asChild href={profile.cvUrl} download="cv.pdf" title="Download CV">
                     <span className="inline-flex items-center gap-2"><Download className="h-4 w-4" />{t.hero.cta2}</span>
                   </Button>
                 </div>
